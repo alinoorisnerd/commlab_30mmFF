@@ -1,0 +1,165 @@
+/* gradient color transition */
+.gradient_background { 
+	background: linear-gradient(-45deg, #e9ec99, #ffc1b0, #F1E3D3, #1B4D3E);
+	background-size: 400% 400%;
+	animation: gradient 8s ease infinite;
+	height: 100vh;
+}
+/* this code for animation transition was taken from code pen :https://codepen.io/P1N2O/pen/pyBNzX */
+/* this color pallete was used: https://colorhunt.co/palette/690b22e07a5ff1e3d31b4d3e  */
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+/* second gradient black and light black */
+
+/* .gradient_background2 { 
+	background: linear-gradient(65deg, #690B22, #E07A5F, #F1E3D3, #1B4D3E);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	height: 110vh;
+} */
+
+/* Custom Navbar styles */
+.navbar-custom {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    padding: 1rem , 1rem;
+    /* top and bottom padding */
+    height: 60px;
+  }
+
+
+  
+  /* Text color for the navbar links */
+  .nav-link-custom, .navbar-brand-custom {
+    color: black;
+    text-decoration: solid;
+    padding-top: 10px;
+    
+  }
+  
+  /* Left container style */
+  #dynamic-text-container {
+   position: relative;
+   background-color: white;
+   height: 30px;
+   width: 200px;
+   padding-left: 60px;
+   padding-top: 3px;
+   margin-right: 0px;
+   border-radius: 20px;
+
+  }
+  
+  /* Center the title  using custom class*/
+  .navbar-brand-custom {
+    margin-left: 400px;
+    padding-top: 10px;
+    font-size: 1.75rem; 
+    /* root size */
+  }
+  
+  /* Align the navbar links to the right */
+  .navbar-nav-custom {
+    margin-left: auto;
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+  }
+  /* the space on the left side of each link */
+  .nav-item-custom {
+    margin-left: 15px;
+  } 
+  
+  .nav-link-custom {
+    padding: 0.5rem;
+  }
+  
+  .texty{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .navbarr{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  #title{
+	background: linear-gradient(-45deg, #e9ec99, #ffc1b0, #F1E3D3, #1B4D3E);
+	background-size: 400% 400%;
+	animation: gradient 8s ease infinite;
+  }
+  #about{
+    background: linear-gradient(-45deg, #e9ec99, #ffc1b0, #F1E3D3, #1B4D3E);
+	background-size: 400% 400%;
+	animation: gradient 8s ease infinite;
+  }
+
+  hr{
+    border: 2px solid;
+  }
+
+  #carouselExampleIndicators {
+    width: 350px;  
+   margin: auto; 
+  }
+  
+.hua{
+    background: linear-gradient(-45deg, #e9ec99, #ffc1b0, #F1E3D3, #1B4D3E);
+	background-size: 400% 400%;
+	animation: gradient 8s ease infinite;
+}
+
+h2{
+    margin-left: 520px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.album{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.album1{
+    background: linear-gradient(-45deg, #e9ec99, #ffc1b0, #F1E3D3, #1B4D3E);
+	background-size: 400% 400%;
+	animation: gradient 8s ease infinite;
+}
+
+.fac{
+    margin-left: 200px;
+}
+.fac2{
+    margin-left: 235px;
+    margin-right: 235px;
+    background-color: white;
+}
+#faculty{
+    background: linear-gradient(-45deg, #e9ec99, #ffc1b0, #F1E3D3, #1B4D3E);
+	background-size: 400% 400%;
+	animation: gradient 8s ease infinite;
+}
+
+.brochure{
+    padding-left: 100px;
+    padding-right: 100px;
+    background: linear-gradient(-45deg, #e9ec99, #ffc1b0, #F1E3D3, #1B4D3E);
+	background-size: 400% 400%;
+	animation: gradient 8s ease infinite;
+}
+
+
+ 
