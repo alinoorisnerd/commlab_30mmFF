@@ -161,5 +161,10 @@ h2{
 	animation: gradient 8s ease infinite;
 }
 
-
- 
+img:hover{
+    width: 110%;
+    height: auto;
+}
+ .carousel-item img:hover {
+  transform: scale(1); /* Increases the size by 0% . used here to avoid affect of img:hover*/
+}
